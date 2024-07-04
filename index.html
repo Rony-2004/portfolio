@@ -24,10 +24,18 @@
 
             </nav>
             <div class="hd-text">
-                <p> </p>
-                <h1>HI,I'm
+                <p>UI/UX Designer </p>
+                <h1>HI,I am
                     <span1>Rony</span1> <br>>>>
-                    <span2>MERN Stack Developer</span2>
+
+                    <span2 id="element"></span2>
+                    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+                    <script>
+                        var typed = new Typed('#element', {
+                            strings: ['MERN Stack Developer', 'Android Developer', 'Video Editor', 'Web Designer'],
+                            typeSpeed: 50,
+                        });
+                    </script>
                 </h1>
             </div>
         </div>
@@ -105,7 +113,7 @@
                     <img src="img1.jpg">
                     <div class="layer">
                         <h3>Netflix Clone</h3>
-                        <p> Html | Css | JS</p>
+                        <p> Cloned Netflix using Html | Css | JS</p>
                         <a href="#"><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
@@ -113,7 +121,7 @@
                     <img src="img2.jpg">
                     <div class="layer">
                         <h3>Amazon Clone</h3>
-                        <p> Html | Css | JS</p>
+                        <p> Cloned Netflix using Html | Css | JS</p>
                         <a href="#"><i class="fa-solid fa-link"></i></a>
 
                     </div>
@@ -196,6 +204,7 @@
                 .catch(error => console.error('Error!', error.message))
         })
     </script>
+
 </body>
 
 </html>
